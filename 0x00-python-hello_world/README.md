@@ -1,7 +1,8 @@
 #0x00. Python - Hello, World
+
 <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/231/48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg">
 
-##Author’s disclaimer
+## Author’s disclaimer
 Welcome to the Python world!
 
 The first projects are more "C-oriented" - no tricks, no funky syntax - simple!
@@ -13,8 +14,8 @@ Enjoy!
 
 - Guillaume
 
-##Learning Objectives
-###General
+## Learning Objectives
+### General
 
     Why Python programming is awesome
     Who created Python
@@ -26,8 +27,8 @@ Enjoy!
     How to use strings
     What are indexing and slicing in Python
     What is the official Python coding style and how to check your code with pycodestyle
-##Requirements
-###Python Scripts
+## Requirements
+### Python Scripts
 
     Allowed editors: vi, vim, emacs
     All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
@@ -38,7 +39,7 @@ Enjoy!
     Your code should use the pycodestyle (version 2.8.*)
     All your files must be executable
     The length of your files will be tested using wc
-###Shell Scripts
+### Shell Scripts
 
     Allowed editors: vi, vim, emacs
     All your scripts will be tested on Ubuntu 20.04 LTS
@@ -46,7 +47,7 @@ Enjoy!
     All your files should end with a new line
     The first line of all your files should be exactly #!/bin/bash
     All your files must be executable
-###C Scripts
+### C Scripts
 
 
     Allowed editors: vi, vim, emacs
@@ -59,8 +60,8 @@ Enjoy!
     The prototypes of all your functions should be included in your header file called lists.h
     Don’t forget to push your header file
     All your header files should be include guarded
-##More Info
-###Zen
+## More Info
+### Zen
 The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
