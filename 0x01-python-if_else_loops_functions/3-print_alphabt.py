@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for ch in range(97, 123):
-    if chr(ch) not in 'qe':
-        print(chr(ch), end='')
+for c in range(ord('a'), ord('z') + 1):
+    if c != ord('e') and c != ord('q'):
+        print("{:c}".format(c), end="")

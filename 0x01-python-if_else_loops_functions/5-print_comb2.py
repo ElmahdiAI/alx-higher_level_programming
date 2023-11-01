@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 for i in range(100):
-    formatted_number = f"{i:02}"
-    print(formatted_number, end=", " if i < 99 else "\n")
+    if i == 99:
+        print(i)
+    else:
+        print("{:0>2d}".format(i), end=", ")
