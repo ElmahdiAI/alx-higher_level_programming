@@ -11,5 +11,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * How to map a Python Class to a MySQL table
 * How to create a Python Virtual Environment
 
-> #FreePalestine
-> #NoCodingUntilPalestineIsFree
+> #FreePalestine 🇵🇸
+> #NoCodingUntilPalestineIsFree 🇵🇸
