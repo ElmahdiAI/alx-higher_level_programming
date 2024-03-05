@@ -1,15 +1,20 @@
 #!/usr/bin/python3
-"""displays the value of the X-Request-Id variable found in
-the header of the response.
 """
+Script that takes in a URL, sends a request to the URL and displays
+the body of the response.
+
+Usage: ./7-error_code.py <URL>
+  - Handles HTTP errors.
+"""
+from sys import argv
+import requests
 
 
 if __name__ == "__main__":
-    from requests import get
-    from sys import argv
+    url = argv[1]
+    req = requests.get(url)
 
-    response = get(argv[1])
-    if response.status_code >= 400:
-        print("Error code: {}".format(response.status_code))
+    if req.status_code >= 400:
+        print("Error code: {}".format(req.status_code))
     else:
-        print(response.text)
+        print(req.text)
